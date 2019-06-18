@@ -11,10 +11,12 @@ img {
 }
 
 #main {
- border: ;
+
 	width:600px;
 	margin:40px auto;
  background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+  background-color:yellow;
+  box-shadow:20px 20px 50px 10px pink inset; 
 }
 
 .wikitable {
