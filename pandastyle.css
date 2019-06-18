@@ -33,6 +33,12 @@ img {
     text-align: center;
 }
 
+#demo{
+position: fixed;
+margin-left: 100px;
+
+}
+
 #image {
   height: 239px;
   width: 115px;

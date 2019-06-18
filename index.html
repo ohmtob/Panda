@@ -187,7 +187,7 @@
 var tID; //we will use this variable to clear the setInterval()
 function animateScript() {
 var    position = 118; //start position for the image slicer
-const  interval = 100; //100 ms of interval for the setInterval()
+const  interval = 250; //100 ms of interval for the setInterval()
 tID = setInterval ( () => {
 document.getElementById("image").style.backgroundPosition = 
 `-${position}px 0px`; 
@@ -201,5 +201,7 @@ else
 }
 , interval ); //end of setInterval
 } //end of animateScript()
+
+
 
 </script>
