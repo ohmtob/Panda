@@ -58,8 +58,42 @@ margin-left: 100px;
 }
 
 #image {
-  height: 239px;
-  width: 115px;
+  height: 200px;
+  width: 100px;
 background: 
 url('https://live.staticflickr.com/65535/48085644353_d257700d0c_o.png') 116px 239px;
 }
+    .card {
+        width: 100%;
+      
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+}
+}
+    .card {
+        width: 100%;
+      
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+}
+
