@@ -1,9 +1,11 @@
 body
 {
-    background-color: lightgreen;
+   }
 	font-family: gregorian;
 }
-
+ #grad {
+  background-image: linear-gradient(top right, red,orange,yellow,green,blue,indigo,violet); 
+}
 img {
 	width:100%;
 }
