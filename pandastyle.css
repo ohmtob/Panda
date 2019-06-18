@@ -1,10 +1,15 @@
 body
 {
+
    }
+
 	font-family: gregorian;
 }
- #grad {
-  background-image: linear-gradient(top right, red,orange,yellow,green,blue,indigo,violet); 
+ #grad1 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient (to bottom right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
 }
 img {
 	width:100%;
@@ -13,6 +18,7 @@ img {
 #main {
 	width:600px;
 	margin:40px auto;
+
 }
 
 .wikitable {
