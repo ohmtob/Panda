@@ -1,6 +1,6 @@
 body
 {
-	font-family: Arial;
+	font-family: gregorian;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 .wikitable {
-    background-color: #f8f9fa;
+    background-color: lightblue;
     color: #222;
     width:100%;
     margin: 1em 0;
@@ -22,7 +22,7 @@ img {
 }
 
 .wikitable th {
-    background-color: #eaecf0;
+    background-color: darkblue;
     text-align: center;
     border: 1px solid #a2a9b1;
     padding: 0.3em;	
